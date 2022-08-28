@@ -1,0 +1,12 @@
+C:\ProyectoCiclo3G67\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Dominio\bin\Debug\net6.0\HormonaDeCrecimiento.App.Dominio.deps.json
+C:\ProyectoCiclo3G67\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Dominio\bin\Debug\net6.0\HormonaDeCrecimiento.App.Dominio.dll
+C:\ProyectoCiclo3G67\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Dominio\bin\Debug\net6.0\HormonaDeCrecimiento.App.Dominio.pdb
+C:\ProyectoCiclo3G67\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Dominio\obj\Debug\net6.0\HormonaDeCrecimiento.App.Dominio.csproj.AssemblyReference.cache
+C:\ProyectoCiclo3G67\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Dominio\obj\Debug\net6.0\HormonaDeCrecimiento.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoCiclo3G67\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Dominio\obj\Debug\net6.0\HormonaDeCrecimiento.App.Dominio.AssemblyInfoInputs.cache
+C:\ProyectoCiclo3G67\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Dominio\obj\Debug\net6.0\HormonaDeCrecimiento.App.Dominio.AssemblyInfo.cs
+C:\ProyectoCiclo3G67\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Dominio\obj\Debug\net6.0\HormonaDeCrecimiento.App.Dominio.csproj.CoreCompileInputs.cache
+C:\ProyectoCiclo3G67\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Dominio\obj\Debug\net6.0\HormonaDeCrecimiento.App.Dominio.dll
+C:\ProyectoCiclo3G67\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Dominio\obj\Debug\net6.0\refint\HormonaDeCrecimiento.App.Dominio.dll
+C:\ProyectoCiclo3G67\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Dominio\obj\Debug\net6.0\HormonaDeCrecimiento.App.Dominio.pdb
+C:\ProyectoCiclo3G67\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Dominio\obj\Debug\net6.0\ref\HormonaDeCrecimiento.App.Dominio.dll
