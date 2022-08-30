@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProyectoCiclo3G67\\HormonaDeCrecimiento.App\\HormonaDeCrecimiento.App.Dominio\\HormonaDeCrecimiento.App.Dominio.csproj": {}
+    "C:\\ProyectoCiclo3G67\\Grupo7-Team-10\\HormonaDeCrecimiento.App\\HormonaDeCrecimiento.App.Dominio\\HormonaDeCrecimiento.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\ProyectoCiclo3G67\\HormonaDeCrecimiento.App\\HormonaDeCrecimiento.App.Dominio\\HormonaDeCrecimiento.App.Dominio.csproj": {
+    "C:\\ProyectoCiclo3G67\\Grupo7-Team-10\\HormonaDeCrecimiento.App\\HormonaDeCrecimiento.App.Dominio\\HormonaDeCrecimiento.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCiclo3G67\\HormonaDeCrecimiento.App\\HormonaDeCrecimiento.App.Dominio\\HormonaDeCrecimiento.App.Dominio.csproj",
+        "projectUniqueName": "C:\\ProyectoCiclo3G67\\Grupo7-Team-10\\HormonaDeCrecimiento.App\\HormonaDeCrecimiento.App.Dominio\\HormonaDeCrecimiento.App.Dominio.csproj",
         "projectName": "HormonaDeCrecimiento.App.Dominio",
-        "projectPath": "C:\\ProyectoCiclo3G67\\HormonaDeCrecimiento.App\\HormonaDeCrecimiento.App.Dominio\\HormonaDeCrecimiento.App.Dominio.csproj",
+        "projectPath": "C:\\ProyectoCiclo3G67\\Grupo7-Team-10\\HormonaDeCrecimiento.App\\HormonaDeCrecimiento.App.Dominio\\HormonaDeCrecimiento.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\mauro\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCiclo3G67\\HormonaDeCrecimiento.App\\HormonaDeCrecimiento.App.Dominio\\obj\\",
+        "outputPath": "C:\\ProyectoCiclo3G67\\Grupo7-Team-10\\HormonaDeCrecimiento.App\\HormonaDeCrecimiento.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mauro\\AppData\\Roaming\\NuGet\\NuGet.Config"

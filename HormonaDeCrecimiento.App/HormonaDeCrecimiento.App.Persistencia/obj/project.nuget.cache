@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LhlAzcFyhhLp+Bi8TB5iYruBmRTMOstAbt2mpmty4CZfj1/MpxAwxi449sLIIN1Se8PWttrkBphYg0gR1vARjg==",
+  "dgSpecHash": "aUTR4cRRxDumJJ6ZddAnpnAsVfsq+xB7VgeMqN9W11DHuqls2ahCJDFq7DDB6jmcpFxUUdG+vj9+TWFSWEaVyA==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoCiclo3G67\\HormonaDeCrecimiento.App\\HormonaDeCrecimiento.App.Persistencia\\HormonaDeCrecimiento.App.Persistencia.csproj",
+  "projectFilePath": "C:\\ProyectoCiclo3G67\\Grupo7-Team-10\\HormonaDeCrecimiento.App\\HormonaDeCrecimiento.App.Persistencia\\HormonaDeCrecimiento.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mauro\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mauro\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

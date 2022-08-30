@@ -7,7 +7,11 @@ namespace HormonaDeCrecimiento.App.Persistencia
     {
         public DbSet<Persona> Personas{get;set;}
         public DbSet<Medico> Medicos{get;set;}
-
+        public DbSet<Familiar> Familiares{get;set;}
+        public DbSet<SugerenciaCuidado> SugerenciaCuidados{get;set;}
+        public DbSet<Historia> Historias{get;set;}
+        public DbSet<Patron> Patrones{get;set;}
+        public DbSet<Paciente> Pacientes{get;set;}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
 
             if(!optionsBuilder.IsConfigured)
