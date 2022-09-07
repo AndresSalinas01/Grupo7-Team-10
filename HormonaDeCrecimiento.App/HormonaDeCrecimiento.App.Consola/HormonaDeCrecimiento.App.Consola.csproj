@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HormonaDeCrecimiento.App.Persistencia\HormonaDeCrecimiento.App.Persistencia.csproj" />
+    <ProjectReference Include="..\HormonaDeCrecimiento.App.Dominio\HormonaDeCrecimiento.App.Dominio.csproj" />
   </ItemGroup>
 
 </Project>
