@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\HormonaDeCrecimiento.App.Dominio\HormonaDeCrecimiento.App.Dominio.csproj" />
+    <ProjectReference Include="..\HormonaDeCrecimiento.App.Persistencia\HormonaDeCrecimiento.App.Persistencia.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

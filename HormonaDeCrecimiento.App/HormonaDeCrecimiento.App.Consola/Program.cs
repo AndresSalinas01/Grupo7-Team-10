@@ -12,12 +12,12 @@ namespace HormonaDeCrecimiento.App.Consola{
         static void Main(string[] arg){
             //Console.WriteLine("");
             //AddPaciente();
-            //BuscarPaciente(1);
+            BuscarPaciente(1);
             //EliminarPaciente(2);
             //ActualizarPaciente(1);
             //AddMedico();
             //AsignarMedico(1,3);
-            MostrarPacientes();
+            //MostrarPacientes();
             //BuscarMedico(3);
             //MostrarMedicos();
             //ActualizarMedico(4);
@@ -25,7 +25,7 @@ namespace HormonaDeCrecimiento.App.Consola{
             //AddFamiliar();
            // AsignarFamiliar(1,5);
             //BuscarFamiliar(6);
-           // MostrarFamiliares();
+           //MostrarFamiliares();
            //EliminarFamiliar(6);
            //ActualizarFamiliar(7);
         }

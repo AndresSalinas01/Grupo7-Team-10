@@ -1,3 +1,5 @@
+using System;
+using System.ComponentModel.DataAnnotations;
 namespace HormonaDeCrecimiento.App.Dominio
 {
     public class Persona

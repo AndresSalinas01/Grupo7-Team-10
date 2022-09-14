@@ -1,0 +1,65 @@
+﻿@page
+@model HormonaDeCrecimiento.App.Pages_MMedicos.IndexModel
+@{
+}
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+<h2>Lista de medicos</h2>
+
+<table class="table">
+  <thead class="table-dark">
+  <tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Telefono</th>
+    <th>Documento</th>
+    <th>Genero</th>
+    <th>Especialidad</th>
+    <th>Opciones <a asp-page="./Create">
+    <span class="material-icons">
+    person_add_alt_1
+    </span></a></th>
+  </tr>
+  </thead>
+  @foreach (var medico in Model.medicos)
+  {
+    <tr>
+        <td>@medico.Nombre</td>
+        <td>@medico.Apellido</td>
+        <td>@medico.Telefono</td>
+        <td>@medico.Documento</td>
+        <td>@medico.Genero</td>
+        <td>@medico.Especialidad</td>
+        <td>
+        <a asp-page="./Details" asp-route-id="@medico.Id">
+        <span class="material-icons">
+        info
+        </span></a> 
+        <a asp-page="./Edit" asp-route-id="@medico.Id">
+        <span class="material-icons">
+        edit
+        </span></a> 
+        <a asp-page="./Delete" asp-route-id="@medico.Id">
+        <span class="material-icons"> 
+        delete
+        </span></a><br>
+    </td>
+    </tr>
+  }
+</table>

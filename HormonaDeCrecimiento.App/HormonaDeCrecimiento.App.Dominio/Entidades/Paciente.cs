@@ -1,8 +1,10 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace HormonaDeCrecimiento.App.Dominio
 {
     public class Paciente:Persona
     {
-
         public string? Direccion{get;set;}
         public float? Latitud{get;set;}
         public float? Longitud{get;set;}

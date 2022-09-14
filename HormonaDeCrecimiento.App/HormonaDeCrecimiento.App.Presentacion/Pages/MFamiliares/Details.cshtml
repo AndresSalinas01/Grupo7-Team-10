@@ -1,0 +1,61 @@
+﻿@page
+@model HormonaDeCrecimiento.App.Pages_MFamiliares.DetailsModel
+@{
+}
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+<h2>Detalle de Familiar</h2>
+
+<table class="table">
+    <thead class="table-dark">
+    <tr>
+        <th>Detalle</th>
+        <th>Descripcion</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>Nombre</td>
+        <td>@Model.Familiar.Nombre</td>
+    </tr>
+    <tr>
+        <td>Apellido</td>
+        <td>@Model.Familiar.Apellido</td>  
+    </tr>
+    <tr>
+        <td>Telefono</td>
+        <td>@Model.Familiar.Telefono</td>
+    </tr>
+    <tr>
+        <td>Documento</td>
+        <td>@Model.Familiar.Documento</td>
+    </tr>
+    <tr>
+        <td>Genero</td>
+        <td>@Model.Familiar.Genero</td>
+    </tr>
+    <tr>
+        <td>Parentesco</td>
+        <td>@Model.Familiar.Parentesco</td>
+    </tr>
+    <tr>
+        <td>Correo</td>
+        <td>@Model.Familiar.Correo</td>
+    </tr>
+</table>
+
