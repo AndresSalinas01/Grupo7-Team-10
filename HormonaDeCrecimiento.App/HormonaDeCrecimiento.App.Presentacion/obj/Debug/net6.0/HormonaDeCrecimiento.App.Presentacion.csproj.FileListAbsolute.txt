@@ -61,3 +61,5 @@ C:\ProyectoCiclo3G67\Grupo7-Team-10\HormonaDeCrecimiento.App\HormonaDeCrecimient
 C:\ProyectoCiclo3G67\Grupo7-Team-10\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Presentacion\obj\Debug\net6.0\HormonaDeCrecimiento.App.Presentacion.pdb
 C:\ProyectoCiclo3G67\Grupo7-Team-10\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Presentacion\obj\Debug\net6.0\HormonaDeCrecimiento.App.Presentacion.genruntimeconfig.cache
 C:\ProyectoCiclo3G67\Grupo7-Team-10\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Presentacion\obj\Debug\net6.0\ref\HormonaDeCrecimiento.App.Presentacion.dll
+C:\ProyectoCiclo3G67\Grupo7-Team-10\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Presentacion\bin\Debug\net6.0\Humanizer.dll
+C:\ProyectoCiclo3G67\Grupo7-Team-10\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Presentacion\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

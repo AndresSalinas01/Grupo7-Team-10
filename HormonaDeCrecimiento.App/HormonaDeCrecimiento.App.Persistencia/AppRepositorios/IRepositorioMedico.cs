@@ -14,6 +14,7 @@ namespace HormonaDeCrecimiento.App.Persistencia
         Medico UpdateMedico(Medico medico);
         void DeleteMedico(int idmedico);
         Medico GetMedico(int idmedico);
+        IEnumerable<Paciente> PacientesMedico(int idmedico);
 
     }
 }

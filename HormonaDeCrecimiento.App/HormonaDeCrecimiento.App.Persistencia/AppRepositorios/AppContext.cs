@@ -12,6 +12,11 @@ namespace HormonaDeCrecimiento.App.Persistencia
         public DbSet<Historia> Historias{get;set;}
         public DbSet<Patron> Patrones{get;set;}
         public DbSet<Paciente> Pacientes{get;set;}
+            public AppContext (DbContextOptions<AppContext> options)
+                : base(options)
+            {
+            }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
 
             if(!optionsBuilder.IsConfigured)

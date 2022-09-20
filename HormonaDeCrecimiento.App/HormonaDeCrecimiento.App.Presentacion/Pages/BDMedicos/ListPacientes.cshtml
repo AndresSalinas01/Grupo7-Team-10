@@ -1,0 +1,59 @@
+﻿@page
+@model HormonaDeCrecimiento.App.Pages_BDMedicos.ListPacientesModel
+@{
+}
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+<h2>Lista de pacientes</h2>
+
+<table class="table">
+  <thead class="table-dark">
+  <tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Telefono</th>
+    <th>Dirección</th>
+    <th>Patrones de crecimiento</th>
+  </thead>
+  @foreach (var paciente in Model.Pacientes)
+  {
+    <tr>
+        <td>@paciente.Nombre</td>
+        <td>@paciente.Apellido</td>
+        <td>@paciente.Telefono</td>
+        <td>@paciente.Direccion</td>
+        <td>
+        <a asp-page="/BDPacientes/GetPatrones" asp-route-id="@paciente.Id">
+        <span class="material-icons"> 
+        assessment
+        </span></a><br>
+
+        </td>
+        @* <td>@paciente.Direccion</td>
+        <td>@paciente.Latitud</td>
+        <td>@paciente.Longitud</td>
+        <td>@paciente.Ciudad</td>
+        <td>@paciente.FechadeNacimiento</td>
+        <td>paciente.Familiar</td>
+        <td>paciente.Historia</td>
+        <td>paciente.Endocrino</td>
+        <td>paciente.Pediatra</td> *@
+    </tr>
+  }
+</table>

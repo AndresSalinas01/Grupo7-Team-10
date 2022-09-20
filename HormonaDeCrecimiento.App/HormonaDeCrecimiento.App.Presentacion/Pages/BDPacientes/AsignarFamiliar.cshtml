@@ -1,0 +1,59 @@
+﻿@page
+@model HormonaDeCrecimiento.App.Pages_BDPacientes.AsignarFamiliarModel
+@{
+}
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<form method="post">
+  <div asp-validation-summary="ModelOnly" class="mb-3"></div>
+    <div class="form-group">
+    <div class="mb-3"><br><br>
+         <input type="hidden" asp-for="Paciente.Id" class="form-control" id="IId" value="@Model.Paciente.Id">
+    </div>
+
+        <h2>Asignar Familiar - @Model.Paciente.Nombre @Model.Paciente.Apellido</h2>
+
+        <table class="table">
+        <thead class="table-dark">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Telefono</th>
+            <th>Documento</th>
+            <th>Parentesco</th>
+            <th>Correo</th>
+            <th>Opciones</th>
+        </tr>
+        </thead>
+        @foreach (var familiar in Model.Familiares)
+        {
+            <tr>
+                <td>@familiar.Nombre</td>
+                <td>@familiar.Apellido</td>
+                <td>@familiar.Telefono</td>
+                <td>@familiar.Documento</td>
+                <td>@familiar.Parentesco</td>
+                <td>@familiar.Correo</td>
+                <td><input type="checkbox" name="familiarId" value="@familiar.Id"> </td>
+            </tr>
+        }
+        </table>
+
+    <button type="submit" class="btn btn-primary" asp-page-handler="ToAssign">Asignar</button>
+    </div>
+</form>

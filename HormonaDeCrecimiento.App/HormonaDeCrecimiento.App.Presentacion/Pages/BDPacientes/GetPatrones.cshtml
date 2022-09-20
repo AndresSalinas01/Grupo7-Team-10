@@ -1,0 +1,42 @@
+﻿@page
+@model HormonaDeCrecimiento.App.Pages_BDPacientes.GetPatronesModel
+@{
+}
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+<h2>Lista de patrones - @Model.Paciente.Nombre @Model.Paciente.Apellido</h2>
+
+<table class="table">
+  <thead class="table-dark">
+  <tr>
+    <th>Fecha</th>
+    <th>Tipo de Patron</th>
+    <th>Valor</th>
+  </tr>
+  </thead>
+  @foreach (var patron in Model.Patrones)
+  {
+    <tr>
+        <td>@patron.FechaHora</td>
+        <td>@patron.TipoPatron</td>
+        <td>@patron.Valor</td>
+    </tr>
+  }
+</table>
+

@@ -1,0 +1,80 @@
+﻿@page
+@model HormonaDeCrecimiento.App.Pages_BDPacientes.EditModel
+@{
+}
+<style>
+#buttonCancel{
+  text-decoration: none;
+  color:#fff;
+  font-size:15px;
+  font-family: 'Ropa Sans', sans-serif; sans-serif;sans-serif;
+  text-shadow: 1px 1px 1px #000;
+}
+</style>
+<section class="h-100 h-custom" style="background-color: #8fc4b7;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-lg-8 col-xl-6">
+        <div class="card rounded-3">
+          <img src="https://static.vecteezy.com/system/resources/previews/001/916/656/non_2x/man-writing-notes-free-photo.jpg"
+            class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+            alt="Sample photo">
+          <div class="card-body p-4 p-md-5">
+            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Editar información</h3>
+            <form method="post" class="px-md-2">
+              <div asp-validation-summary="ModelOnly" class="mb-3"></div>
+              <div class="form-group">
+              <div class="form-outline mb-4">
+                <input  type="hidden" asp-for="Paciente.Id" class="form-control" id="IId" value="@Model.Paciente.Id">
+                <label for="lNombre" class="form-label">Nombre</label>
+                <input pattern="[a-zA-Z][a-zA-Z ]{4,}" asp-for="Paciente.Nombre" class="form-control" id="INombre" value="@Model.Paciente.Nombre" required/>
+              </div>
+              <div class="mb-4">
+                <label for="lApellido" class="form-label">Apellido</label>
+                <input pattern="[a-zA-Z][a-zA-Z ]{4,}" asp-for="Paciente.Apellido" class="form-control" id="IApellido" value="@Model.Paciente.Apellido" required/>
+              </div>
+              <div class="mb-4">
+                <label for="lTelefono" class="form-label">Telefono</label>
+                <input type="number" asp-for="Paciente.Telefono" class="form-control" id="ITelefono" value="@Model.Paciente.Telefono" required/>
+              </div>
+              <div class="mb-4">
+                <label for="lDocumento" class="form-label">Documento</label>
+                <input type="number" asp-for="Paciente.Documento" class="form-control" id="IDocumento" value="@Model.Paciente.Documento" required/>
+              </div>
+              <div class="mb-4">
+                <label for="lDireccion" class="form-label">Direccion</label>
+
+                <input asp-for="Paciente.Direccion" class="form-control" id="IDireccion" value="@Model.Paciente.Direccion" required/>
+              </div>
+              <div class="mb-4">
+                <label for="lGenero" class="form-label">Genero</label><br>
+                    <input type="radio" asp-for="Paciente.Genero" value=0 required/> Masculino<br />
+                    <input type="radio" asp-for="Paciente.Genero" value=1/> Femenino<br />
+              </div>
+              <div class="mb-4">
+                <label for="lLatitud" class="form-label">Latitud</label>
+                <input type="number" step=".01" asp-for="Paciente.Latitud" class="form-control" id="ILatitud" value="@Model.Paciente.Latitud" required/>
+              </div>
+              <div class="mb-4">
+                <label for="lLongitud" class="form-label">Longitud</label>
+                <input type="number" step=".01" asp-for="Paciente.Longitud" class="form-control" id="ILongitud" value="@Model.Paciente.Longitud" required/>
+              </div>
+                <div class="mb-4">
+                <label for="lCiudad" class="form-label">Ciudad</label>
+                <input pattern="[a-zA-Z][a-zA-Z ]{4,}" asp-for="Paciente.Ciudad" class="form-control" id="ICiudad" value="@Model.Paciente.Ciudad" required/>
+              </div>
+              <div class="mb-4">
+                <label for="lFechadeNacimiento" class="form-label">Fecha de nacimiento</label>
+                <input asp-for="Paciente.FechadeNacimiento" class="form-control" id="IFechadeNacimiento" value="@Model.Paciente.FechadeNacimiento" required/>
+              </div>
+            <button type="button" class="btn btn-secondary"><a id="buttonCancel" asp-page="./Index">Cancelar</a></button>
+              <button type="submit" class="btn btn-primary" asp-page-handler="Save">Submit</button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -15,6 +15,86 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\ProyectoCiclo3G67\Grupo7-Team-10\HormonaDeCrecimiento.App\HormonaDeCrecimiento.App.Presentacion
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDFamiliares/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRGYW1pbGlhcmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDFamiliares/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRGYW1pbGlhcmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDFamiliares/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRGYW1pbGlhcmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDFamiliares/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRGYW1pbGlhcmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDFamiliares/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRGYW1pbGlhcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDMedicos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRNZWRpY29zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDMedicos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRNZWRpY29zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDMedicos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRNZWRpY29zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDMedicos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRNZWRpY29zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDMedicos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRNZWRpY29zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDMedicos/ListPacientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRNZWRpY29zXExpc3RQYWNpZW50ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDPacientes/AddPatron.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcQWRkUGF0cm9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDPacientes/AsignarFamiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcQXNpZ25hckZhbWlsaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDPacientes/AsignarMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcQXNpZ25hck1lZGljby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDPacientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDPacientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDPacientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDPacientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDPacientes/GetPatrones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcR2V0UGF0cm9uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/BDPacientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/ProyectoCiclo3G67/Grupo7-Team-10/HormonaDeCrecimiento.App/HormonaDeCrecimiento.App.Presentacion/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

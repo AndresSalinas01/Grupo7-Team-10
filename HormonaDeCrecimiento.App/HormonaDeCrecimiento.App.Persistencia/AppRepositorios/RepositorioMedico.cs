@@ -53,6 +53,21 @@ namespace HormonaDeCrecimiento.App.Persistencia
             return _appContext.Medicos.FirstOrDefault(m=>m.Id==idmedico);
         }
 
-
+        public IEnumerable<Paciente> PacientesMedico(int idmedico){
+            
+            var medicoEncontrado =  _appContext.Medicos.FirstOrDefault(m=>m.Id==idmedico);
+            
+            if(medicoEncontrado!=null){
+                
+                if( medicoEncontrado.Especialidad.ToLower() == "endocrino"){
+                    return _appContext.Pacientes.Where(p=>p.Endocrino.Id==idmedico).ToList();
+                }
+                if( medicoEncontrado.Especialidad.ToLower() == "pediatra"){
+                    return _appContext.Pacientes.Where(p=>p.Pediatra.Id==idmedico).ToList();
+                }
+            }
+            return null;
+        }
+        
     }
 }

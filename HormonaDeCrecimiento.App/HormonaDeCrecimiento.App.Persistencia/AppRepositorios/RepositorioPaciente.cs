@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using HormonaDeCrecimiento.App.Dominio;
 
@@ -84,6 +85,35 @@ namespace HormonaDeCrecimiento.App.Persistencia
 
         }
 
+        public Medico ConsultarEndocrino(int idpaciente){
+            // var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p=>p.Id==idpaciente); 
+
+            // if(pacienteEncontrado!=null){
+            //     var medicoEncontrado = _appContext.Medicos.FirstOrDefault(m=>m.Id==pacienteEncontrado.idmedico);
+            //     if(medicoEncontrado!=null){
+            //         return medicoEncontrado;
+            //     } 
+            // }
+
+            // return null;
+            var paciente = _appContext.Pacientes.Where(p=>p.Id==idpaciente).Include(p=>p.Endocrino).FirstOrDefault();
+            return paciente.Endocrino;
+
+        }
+
+        public Medico ConsultarPediatra(int idpaciente){
+
+            var paciente = _appContext.Pacientes.Where(p=>p.Id==idpaciente).Include(p=>p.Pediatra).FirstOrDefault();
+            return paciente.Pediatra;
+
+        } 
+
+        public IEnumerable<Patron> GetPatronesPacientes(int idpaciente){
+            var paciente = _appContext.Pacientes.Where(p=>p.Id==idpaciente).Include(p=>p.Patrones).FirstOrDefault();
+            return paciente.Patrones;
+
+        }
+
         public Familiar AsignarFamiliar(int idpaciente, int idfamiliar){
 
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p=>p.Id==idpaciente);           
@@ -100,6 +130,12 @@ namespace HormonaDeCrecimiento.App.Persistencia
 
             return null;
 
+        }
+
+        public Familiar ConsultarFamiliar(int idpaciente){
+
+            var paciente = _appContext.Pacientes.Where(p=>p.Id==idpaciente).Include(p=>p.Familiar).FirstOrDefault();
+            return paciente.Familiar;
         }
 
     }

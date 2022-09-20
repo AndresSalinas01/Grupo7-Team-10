@@ -28,6 +28,15 @@ namespace HormonaDeCrecimiento.App.Presentacion
             services.AddSingleton<IRepositorioPacienteMemoria,RepositorioPacienteMemoria>();
             services.AddSingleton<IRepositorioMedicoMemoria,RepositorioMedicoMemoria>();
             services.AddSingleton<IRepositorioFamiliarMemoria,RepositorioFamiliarMemoria>();
+            services.AddScoped<IRepositorioPaciente,RepositorioPaciente>();
+            services.AddScoped<IRepositorioFamiliar,RepositorioFamiliar>();
+            services.AddScoped<IRepositorioMedico,RepositorioMedico>();
+            
+            services.AddDbContext<Persistencia.AppContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("HormonaDeCrecimientoT10")));
+
+
+
             services.AddRazorPages();
         }
 
@@ -57,5 +66,6 @@ namespace HormonaDeCrecimiento.App.Presentacion
                 endpoints.MapRazorPages();
             });
         }
+        
     }
 }

@@ -1,0 +1,65 @@
+﻿@page
+@model HormonaDeCrecimiento.App.Pages_BDMedicos.DetailsModel
+@{
+}
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+<h2>Detalle de Medico</h2>
+
+<table class="table">
+    <thead class="table-dark">
+    <tr>
+        <th>Detalle</th>
+        <th>Descripcion</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>Nombre</td>
+        <td>@Model.Medico.Nombre</td>
+    </tr>
+    <tr>
+        <td>Apellido</td>
+        <td>@Model.Medico.Apellido</td>  
+    </tr>
+    <tr>
+        <td>Telefono</td>
+        <td>@Model.Medico.Telefono</td>
+    </tr>
+    <tr>
+        <td>Documento</td>
+        <td>@Model.Medico.Documento</td>
+    </tr>
+    <tr>
+        <td>Genero</td>
+        <td>@Model.Medico.Genero</td>
+    </tr>
+    <tr>
+        <td>Especialidad</td>
+        <td>@Model.Medico.Especialidad</td>
+    </tr>
+    <tr>
+        <td>Codigo</td>
+        <td>@Model.Medico.Codigo</td>
+    </tr>
+    <tr>
+        <td>Registro Rethus</td>
+        <td>@Model.Medico.RegistroRethus</td>
+    </tr>
+</table>
+

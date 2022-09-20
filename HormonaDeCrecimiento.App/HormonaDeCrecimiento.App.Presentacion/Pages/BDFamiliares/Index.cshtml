@@ -1,0 +1,65 @@
+﻿@page
+@model HormonaDeCrecimiento.App.Pages_BDFamiliares.IndexModel
+@{
+}
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+<h2>Lista de Familiares</h2>
+
+<table class="table">
+  <thead class="table-dark">
+  <tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Telefono</th>
+    <th>Documento</th>
+    <th>Genero</th>
+    <th>Parentesco</th>
+    <th>Opciones <a asp-page="./Create">
+    <span class="material-icons">
+    person_add_alt_1
+    </span></a></th>
+  </tr>
+  </thead>
+  @foreach (var familiar in Model.Familiares)
+  {
+    <tr>
+        <td>@familiar.Nombre</td>
+        <td>@familiar.Apellido</td>
+        <td>@familiar.Telefono</td>
+        <td>@familiar.Documento</td>
+        <td>@familiar.Genero</td>
+        <td>@familiar.Parentesco</td>
+        <td>
+        <a asp-page="./Details" asp-route-id="@familiar.Id">
+        <span class="material-icons">
+        info
+        </span></a> 
+        <a asp-page="./Edit" asp-route-id="@familiar.Id">
+        <span class="material-icons">
+        edit
+        </span></a> 
+        <a asp-page="./Delete" asp-route-id="@familiar.Id">
+        <span class="material-icons"> 
+        delete
+        </span></a><br>
+    </td>
+    </tr>
+  }
+</table>

@@ -1,0 +1,85 @@
+﻿@page
+@model HormonaDeCrecimiento.App.Pages_BDPacientes.DetailsModel
+@{
+}
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+<h2>Detalle de paciente</h2>
+
+<table class="table">
+    <thead class="table-dark">
+    <tr>
+        <th>Detalle</th>
+        <th>Descripcion</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>Nombre</td>
+        <td>@Model.Paciente.Nombre</td>
+    </tr>
+    <tr>
+        <td>Apellido</td>
+        <td>@Model.Paciente.Apellido</td>  
+    </tr>
+    <tr>
+        <td>Telefono</td>
+        <td>@Model.Paciente.Telefono</td>
+    </tr>
+    <tr>
+        <td>Documento</td>
+        <td>@Model.Paciente.Documento</td>
+    </tr>
+    <tr>
+        <td>Genero</td>
+        <td>@Model.Paciente.Genero</td>
+    </tr>
+    <tr>
+        <td>Direccion</td>
+        <td>@Model.Paciente.Direccion</td>
+    </tr>
+    <tr>
+        <td>Latitud</td>
+        <td>@Model.Paciente.Latitud</td>
+    </tr>
+    <tr>
+        <td>Longitud</td>
+        <td>@Model.Paciente.Longitud</td>
+    </tr>
+    <tr>
+        <td>Ciudad</td>
+        <td>@Model.Paciente.Ciudad</td>
+    </tr>
+    <tr>
+        <td>Fecha de nacimiento</td>
+        <td>@Model.Paciente.FechadeNacimiento</td>
+    </tr>
+    <tr>
+        <td>Endocrino</td>
+        <td>@Model.Paciente.Endocrino.Nombre @Model.Paciente.Endocrino.Apellido</td>
+    </tr>
+    <tr>
+        <td>Pediatra</td>
+        <td>@Model.Paciente.Pediatra.Nombre @Model.Paciente.Endocrino.Apellido</td>
+    </tr>
+        <tr>
+        <td>Familiar</td>
+        <td>@Model.Paciente.Familiar.Nombre @Model.Paciente.Familiar.Apellido</td>
+    </tr>
+
+</table>
